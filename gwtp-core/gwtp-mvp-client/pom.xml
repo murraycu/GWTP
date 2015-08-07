@@ -91,6 +91,16 @@
             <artifactId>javax.inject</artifactId>
             <scope>provided</scope>
         </dependency>
+        <dependency>
+            <groupId>com.google.auto.service</groupId>
+            <artifactId>auto-service</artifactId>
+            <version>${auto-service.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.google.auto</groupId>
+            <artifactId>auto-common</artifactId>
+            <version>0.4</version>
+        </dependency>
 
         <!-- Rebind dependencies -->
         <dependency>
@@ -115,6 +125,8 @@
         <dependency>
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
+            <scope>compile</scope>
+            <!-- TODO -->
         </dependency>
         <dependency>
             <groupId>${project.groupId}</groupId>

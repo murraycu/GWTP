@@ -249,6 +249,7 @@
         <!-- when you update the gwt version please also update the dtds in all gwt.xml files -->
         <gin.version>2.1.2</gin.version>
         <gwt-jackson.version>0.9.0</gwt-jackson.version>
+        <auto-service.version>1.0-rc1</auto-service.version>
 
         <!-- Server -->
         <jax-rs.version>1.1.1</jax-rs.version>
