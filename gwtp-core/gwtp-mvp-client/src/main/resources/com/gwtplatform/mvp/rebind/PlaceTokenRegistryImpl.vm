@@ -1,10 +1,10 @@
-package ${packageName};
+package ${impl.packageName};
 
 import java.util.Set;
 import java.util.HashSet;
 import com.gwtplatform.mvp.shared.proxy.PlaceTokenRegistry;
 
-public class ${className} implements PlaceTokenRegistry {
+public class ${impl.simpleName} implements PlaceTokenRegistry {
     public Set<String> getAllPlaceTokens() {
         Set<String> placeTokens = new HashSet<String>();
 

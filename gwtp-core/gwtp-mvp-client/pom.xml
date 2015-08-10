@@ -107,6 +107,12 @@
             <groupId>org.apache.velocity</groupId>
             <artifactId>velocity</artifactId>
         </dependency>
+        <dependency>
+            <groupId>com.gwtplatform</groupId>
+            <artifactId>dispatch-rest-processors</artifactId>
+            <version>${project.version}</version>
+            <scope>compile</scope>
+        </dependency>
 
         <!-- Test dependencies -->
         <dependency>
